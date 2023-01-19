@@ -1,0 +1,48 @@
+body {
+  display: grid;
+  grid-row: 5;
+  width: 60em;
+  margin: 0 auto;
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+#green {
+  grid-area: bgreen;
+  background-color: #8ffda7;
+}
+
+#orange {
+  grid-area: borange;
+  background-color: #ffc788;
+}
+
+#yellow {
+  grid-area: byellow;
+  background-color: #ffff92;
+}
+
+#red {
+  grid-area: bred;
+  background-color: #ff919c;
+}
+
+#blue {
+  grid-area: bblue;
+  background-color: #98d2ff;
+}
+
+ul {
+  display: grid;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+}
